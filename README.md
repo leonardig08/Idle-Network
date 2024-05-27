@@ -6,7 +6,7 @@ Idle Network is a simulation game built with Python where you manage your own vi
 
 In Idle Network, you start with a server and a PC connected by a cable. The server generates data matrices, initially 1 bit each, at a certain speed. These data matrices are then transmitted through the cable to the PC for processing. For each successfully transmitted data matrix, you earn datapoints, the in-game currency.
 
-However, there's a catch - at the beginning, there's a percentage chance of data corruption during transmission. Corrupted data still reaches the PC but results in processing errors, yielding 0 datapoints.
+However, there's a catch - at the beginning, there's a percentage chance of data corruption during transmission. Corrupted data still reaches the PC but results in processing errors, yielding 0 datapoints and wasting you processing time.
 
 ## Features
 
@@ -17,9 +17,9 @@ However, there's a catch - at the beginning, there's a percentage chance of data
 
 ## Research Options
 
-- **Error Detection Algorithms:** Implement algorithms to identify corrupted data during transmission.
+- **Error Detection Algorithms:** Implement algorithms to identify corrupted data during transmission, and don't waste time trying to decode it.
 - **Error Correction Algorithms:** Develop algorithms to correct errors in transmitted data, increasing the likelihood of successful processing.
-- **Advanced Server Upgrades:** Unlock upgrades such as faster processors, increased memory capacity, and improved data storage.
+- **Advanced Upgrades:** Unlock upgrades such as faster servers and pcs. You will also be able to add servers and pcs to get more data transmitted.
 - **Enhanced Cables:** Research better cables with higher bandwidth and lower error rates for improved data transmission.
 
 ## Getting Started
@@ -28,6 +28,11 @@ However, there's a catch - at the beginning, there's a percentage chance of data
 2. **Clone the repository:** git clone https://github.com/leonardig08/Idle-Network
 3. **Install Dependencies:** pip install -r requirements.txt
 4. **Run the game:** python game.py
+
+## Credits
+
+- Thanks to [Pygame WIKI](http://www.pygame.org/wiki/GradientCode) for the code to generate the gradient background
+- Thanks to (Will add when itch.io returns online)
 
 ## Contributing
 
