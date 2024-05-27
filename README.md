@@ -32,7 +32,7 @@ However, there's a catch - at the beginning, there's a percentage chance of data
 ## Credits
 
 - Thanks to [Pygame WIKI](http://www.pygame.org/wiki/GradientCode) for the code to generate the gradient background
-- Thanks to (Will add when itch.io returns online)
+- Thanks to (Will add when itch.io returns online) for the devices assets
 
 ## Contributing
 
